@@ -13,6 +13,10 @@
   "sticky": false
 }}}
 
+**Managed Backup went End of Sale 6/25/19. All existing subscriptions will still continue to function**
+
+**You will not be able to add Managed Backup to new servers, but it can be removed from existing servers**
+
 **Q: What is included in the Managed Backup service?**
 
 A: Managed Backup makes CenturyLink's backup solution available in the CenturyLink Cloud. Customers can deploy the new managed backup service on existing virtual machines in the CenturyLink Cloud, as well as on new VMs. By default, all servers with Managed Backup enabled have their volumes backed up nightly. The backup data is stored for two weeks in the same data center as the virtual machine **and** in a remote data center – this offers geographic redundancy. Customers also get 24x7 support from managed backup engineers to help troubleshoot any backup issues or change configurations such as schedules or retention policies. This support staff is available by contacting the CenturyLink Client Service Center at 1-888-638-6771.
@@ -21,17 +25,9 @@ A: Managed Backup makes CenturyLink's backup solution available in the CenturyLi
 
 A: From the Control Portal menu, select “Create Server.” You will then be prompted to select the data center, group membership, and other VM properties. Select a data center that supports Managed Backup (an updated list is [available here](//www.ctl.io/managed-services/backup/)), and then click the “managed server” element to “Yes.” Once this is selected, you will see the option for "managed backup" appear. Set this to yes, and the operating system drop-down menu will then automatically refresh to show available options. Choose your version, and then proceed with the remainder of the server creation process. You may also [review a more detailed walkthrough of enabling (and disabling) Managed Backup on a server](../Managed Services/enabling-and-disabling-managed-backup.md).
 
-**Q: What if I don’t see an option for Managed Backup in the CenturyLink Cloud Control Panel?**
+**Why don’t I see an option for Managed Backup in the CenturyLink Cloud Control Panel?**
 
-A: There could be a few causes:
-* Be sure you are creating the server in a data center that supports the managed backup service (an updated list is [available here](//www.ctl.io/managed-services/backup/)).
-* It is possible your company has not yet executed a Master Services Agreement (MSA) with CenturyLink Technology Solutions. To obtain a MSA – or if you believe you should already have one in place – please contact a CenturyLink Sales Representative toll free at:
-    * United States: 1-888-638-6771
-    * Canada: 1-877-387-3764
-    * Europe, Middle East and Africa: +44 (0) 118 309 4886
-    * Japan: +81 3 5214 0180
-    * Hong Kong: +852 3079 4461
-    * Singapore: +65 6591 8824
+We discontinued consumption from within the CenturyLink Cloud Control Portal when Managed Backup went End of Sale on June 25, 2019. All existing subscriptions will still continue to function, but you cannot add Managed Backup to new servers. It can be removed from existing servers.
 
 **Q: How much does the Managed Backup service cost? Why is the cost not included in the estimates shown in Control Portal?**
 
@@ -100,7 +96,7 @@ A: Hot backup is not offered in Managed Backup.  Managed Backup is for file/fold
 
 For SQL, Mysql , Oracle and other databases, a suggested method is to put the data to a file/folder for inclusion in the backups.
 
-To safely backup and restore Microsoft Exchange mailbox data CenturyLink Cloud customers must implementation and operate their own solution.  Using 3rd party backup clients allows customers to perform recovery of message/mailbox (Exchange) data, define retention periods and backup frequency.  Customers can speak to a CenturyLink Cloud sales representative for guidance.
+To safely backup and restore Microsoft Exchange mailbox data CenturyLink Cloud customers must implement and operate their own solution.  Using 3rd party backup clients allows customers to perform recovery of message/mailbox (Exchange) data, define retention periods and backup frequency.  Customers can speak to a CenturyLink Cloud sales representative for guidance.
 
 **Q: Where are my offsite vault copies stored?**
 
